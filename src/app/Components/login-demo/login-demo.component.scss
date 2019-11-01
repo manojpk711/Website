@@ -1,0 +1,43 @@
+.containr{
+    height: 100vh;
+    width: 100%;
+    background-color:#add8e6;
+    padding-top: 70px;
+    // padding-bottom: 10px;
+     .inner{
+         padding-top: 18px;
+         margin-left: 330px;
+         margin-right: 230px;
+         height:80vh;
+         width: 50%;
+         background-color: red;
+         border-radius: 25px;
+      
+         h1{
+            text-align:center;
+         }
+         .inputBox {
+             padding-top: 15px;
+             padding-left: 130px;
+             padding-right: 150px;
+        input{
+               width: 100%;
+               height: 35px;
+               border-radius: 5px;
+               border:none;
+               font-size:20px bold;
+               border-bottom: 2px solid;
+            //   background-color: black;
+        }
+        label{
+          
+            font-size:20px;
+            top:0;
+            left:0;
+        }                  
+         }
+         .Button{
+             margin-left: 270px;
+         }
+     }
+}

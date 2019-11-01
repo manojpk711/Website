@@ -1,0 +1,71 @@
+.Body{
+    margin:0px;
+    padding:0px;
+    height:580px;
+    font-family: sans-serif;
+    background:url(C:\Users\manoj\Desktop\freelancing\my-app\src\assets\B1.jpg);
+    background-repeat: repeat;
+.Box{
+    position: absolute;
+    top:20%;
+    left:35%;
+    transform: (-50%,-50%);
+    width: 400px;
+    padding:40px;
+    background:rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+   
+    
+    .inputBox{
+        position: relative;
+        input{
+            width: 100%;
+            padding:10px 0;
+            font-size: 16px;
+            margin-bottom: 30px;
+            border:none;
+            border-bottom:1px solid #fff;
+            outline: none;
+            background: transparent;
+            color:#fff;
+            letter-spacing: 1px;
+        }
+     
+        label{
+            position: absolute;
+            top:0px;
+            left:0px;
+            padding:10px;
+            font-size: 16px;
+            color:#fff;
+            pointer-events: none;
+            transition: .5s;
+            padding-left: 1px;;
+        }
+        input:focus ~ label,
+        input:valid ~ label{
+              top:-18px;
+              left:0px;
+              color:#03a0f4;
+              font-size: 15px;
+        } 
+    }
+    h1{
+        margin:0 0 30px;
+        padding:0;
+        text-align: center;
+        color:white;
+    }
+    .Button
+    {
+           background-color: red;
+           height:40px;
+           width: 100px;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+    }
+}
+}

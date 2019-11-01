@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+.Body{
+    margin:0px;
+    padding:0px;
+    height:600px;
+    font-family: sans-serif;
+    background:url(C:\Users\manoj\Desktop\freelancing\my-app\src\assets\B1.jpg);
+    background-repeat: repeat;
+    padding-top:70px;
+    .wrap{
+        margin:auto;
+        width:400px;
+        padding:20px;
+        font-family: sans-serif;
+        background: white;
+        border-radius: 10px;
+        h2{
+            font-size: 20px solid;
+            text-align: center;
+        }
+        button{
+            padding:10px;
+            font-size: 16px;
+            width:49%;
+            border:none;
+            border-radius:10px;
+            box-sizing: border-box;
+            font-weight: bold;
+          
+          a{
+              text-decoration:none;
+              color:#fff;
+          }
+      
+        }
+        .social-media{
+            button:nth-child(1){
+                background: purple;
+              }
+              button:nth-child(2){
+                background: green;
+              }
+           }
+           form{
+               margin-top:35px;
+           }
+           input[type="text"],input[type="password"],input[type="submit"]
+           {
+               width:100%;
+               padding:8px;
+               margin-bottom:20px;
+               border-radius:10px;
+                border:2px solid black;
+               outline:none;
+               font-size:16px;
+           }
+           input[type="submit"]
+           {
+               background: rgb(50, 168, 166);
+                cursor: pointer;
+                margin-top:20px;
+                font-size:17px;
+                color:white;
+           }
+           label{
+               font-size:20px;
+               font-weight:bold;
+              
+           }
+    }
+}
