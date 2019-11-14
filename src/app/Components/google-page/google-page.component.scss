@@ -1,0 +1,112 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    .header{
+        float:right ;
+        a{
+            margin:12px ;
+            color:#000;
+            text-decoration: none;
+            font-size:15px;
+        } 
+        
+        button{
+            background:#4484f1;
+            padding:6px;
+            font-size:12px;
+            color: #fff;
+            border-radius: 5px;
+        }
+    } 
+    .main{
+        text-align: center;
+        .logo-image{
+             img{
+                 width:500px;
+                 height:200px;;
+                 margin-top:8%;
+                 margin-left: 200px;
+             }
+        }
+        .search-box{
+            
+           input{
+            height: 30px;
+            width: 400px;
+            margin-left: 60px;
+            border-radius: 10px;
+            text-align: center;
+            outline: none;
+           }
+        }
+        .btn{
+             margin-top: 28px;
+             margin-left: 15px;
+           .btn1{
+               margin-left: 37px;
+            height:32px;
+            width:150px;
+            margin-right: 30px;
+            font-size:15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn2{
+            height:32px;
+            width:150px;
+            font-size:15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+    .languages{
+        margin-top: 30px;
+        label{
+            font-size: 20px;
+        }
+        a{
+            margin-left: 15px;
+            text-decoration: none;
+        }
+    }
+}
+.footer{
+    margin-top:75px;
+    height: 70px;
+    width: 100%;
+    background-color:rgb(240, 245, 245);
+    .country{
+        span{
+            border-bottom:10px;
+            color: black;
+            font-size: 20px;
+            margin-left: 20px;
+         
+        }
+    }
+    .footer-links{
+     margin-top:8px ;
+    }
+    .footer-left{
+        width:40%;
+        // background-color: black;
+        float: left;
+        font-size: 20px;
+        
+        a{
+         margin-left: 20px;
+         text-decoration: none;
+        }
+    }
+    .footer-right{
+        width:20%;
+        // background-color: black;
+        float: right;
+        font-size: 20px;
+        a{
+            margin-left: 20px;
+            text-decoration: none;
+           }
+    }
+}
+}

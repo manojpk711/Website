@@ -8,6 +8,7 @@ import { LoginDemo1Component } from './Components/login-demo1/login-demo1.compon
 import { LoginDemo2Component } from './Components/login-demo2/login-demo2.component';
 import { ResponsiveAnimatedLoginComponent } from './Components/responsive-animated-login/responsive-animated-login.component';
 import { WebsiteComponent } from './Components/website/website.component';
+import { GooglePageComponent } from './Components/google-page/google-page.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { WebsiteComponent } from './Components/website/website.component';
     LoginDemo2Component,
     ResponsiveAnimatedLoginComponent,
     WebsiteComponent,
+    GooglePageComponent,
 
   ],
   imports: [
