@@ -9,6 +9,14 @@ import { LoginDemo2Component } from './Components/login-demo2/login-demo2.compon
 import { ResponsiveAnimatedLoginComponent } from './Components/responsive-animated-login/responsive-animated-login.component';
 import { WebsiteComponent } from './Components/website/website.component';
 import { GooglePageComponent } from './Components/google-page/google-page.component';
+import { AddToCartComponent } from './Components/add-to-cart/add-to-cart.component';
+import { HeaderComponent } from './Components/shared/header/header.component';
+import { FooterComponent } from './Components/shared/footer/footer.component';
+import { NavbarComponent } from './Components/shared/navbar/navbar.component';
+import { FilterComponent } from './Components/add-to-cart/filter/filter.component';
+import { ProductListComponent } from './Components/add-to-cart/product-list/product-list.component';
+import { CartComponent } from './Components/add-to-cart/cart/cart.component';
+import { ProductItemComponent } from './Components/add-to-cart/product-list/product-item/product-item.component';
 
 
 @NgModule({
@@ -20,6 +28,14 @@ import { GooglePageComponent } from './Components/google-page/google-page.compon
     ResponsiveAnimatedLoginComponent,
     WebsiteComponent,
     GooglePageComponent,
+    AddToCartComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavbarComponent,
+    FilterComponent,
+    ProductListComponent,
+    CartComponent,
+    ProductItemComponent,
 
   ],
   imports: [
